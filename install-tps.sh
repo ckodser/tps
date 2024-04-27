@@ -10,6 +10,7 @@ dest="${dest_dir}/tps"
 echo "copying 'tps.sh' to '${dest_dir}' as 'tps'..."
 
 cp tps.sh "${dest}"
+cp toQuera.sh "${dest}"
 chmod +x "${dest}"
 
 bc_file="tps.bash_completion.sh"
