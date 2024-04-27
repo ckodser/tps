@@ -7,6 +7,12 @@
 
 readonly tps_version=1.6
 
+if [ "${__tps_command__}" == "toQuera" ]; then
+  cp "/usr/local/bin/toQuera.sh" "./toQuera.sh"
+  bash toQuera.sh
+  rm "./toQuera.sh"
+  exit 0
+fi
 
 set -e
 
